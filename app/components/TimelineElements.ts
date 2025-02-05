@@ -31,7 +31,7 @@ interface TimelineElement {
     },
     {
       key: 3,
-      icon: "images/wts.jpg",
+      icon: "images/wtslogored.jpeg",
       bgColor: "white",
       title: "Working Student - Power platforms",
       subtitle: "Wts digital GmbH",

@@ -1,14 +1,18 @@
 import React from 'react';
 
 const Languages = () => {
+    type LanguageSkill = {
+        name: string;
+        level: number;
+      };
   // Example language skills
-  const languageSkills = [
+  const languageSkills: LanguageSkill[] = [
     { name: 'Arabic', level: 100 },
     { name: 'French', level: 80 },
     { name: 'English', level: 100 },
     { name: 'German', level: 75 }
-    ,
-    ,
+    
+    
   ];
 
   return (
