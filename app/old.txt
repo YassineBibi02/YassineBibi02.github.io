@@ -1,0 +1,32 @@
+import React from "react";
+import Link from "next/link";
+import Header from "./components/Header";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-gray-100">
+      <Header />
+
+      {/* Scrollable Container */}
+      <div className="h-[calc(100vh-64px)] overflow-y-scroll hide-scrollbar snap-y snap-mandatory">
+        
+        {/* Scrollable Sections */}
+        <section className="h-[calc(100vh-64px)] bg-green-300 flex items-center justify-center snap-start">
+          <h2 className="text-4xl font-bold text-white">Welcome to Page 1</h2>
+        </section>
+
+        <section className="h-[calc(100vh-64px)] bg-blue-200 bg-opacity-50 flex items-center justify-center snap-start">
+          <h2 className="text-4xl font-bold text-gray-800">Welcome to Page 2</h2>
+        </section>
+
+        <section className="h-[calc(100vh-64px)] bg-black flex items-center justify-center snap-start">
+          <h2 className="text-4xl font-bold text-white">Welcome to Page 3</h2>
+        </section>
+
+        <section className="h-[calc(100vh-64px)] bg-gray-700 flex items-center justify-center snap-end">
+          <h2 className="text-4xl font-bold text-white">Welcome to Page 4</h2>
+        </section>
+      </div>
+    </main>
+  );
+}
