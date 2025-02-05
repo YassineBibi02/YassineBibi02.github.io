@@ -30,9 +30,9 @@ const Header = () => {
         <Link href="/" className="hover:underline font-semibold mr-4">
           Home
         </Link>
-        <Link href="/cv" className="hover:underline font-semibold mr-4">
+        <a href="/Lebenslauf 2025 - EN.pdf" target="_blank" rel="noopener noreferrer" className="hover:underline font-semibold mr-4">
           CV
-        </Link>
+        </a>
       </div>
     </header>
   );
