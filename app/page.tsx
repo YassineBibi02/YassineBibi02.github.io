@@ -27,8 +27,8 @@ export default function Home() {
 
         <Aboutme />
 
-        <div className='py-20'>
-          <h1 className='text-center text-5xl text-[rgba(255,255,255,0.8)] '>Portfolio</h1>
+        <div className=' mt-48 sm:mt-0 py-20 '>
+        <h1 className='text-center text-5xl sm:text-4xl text-[rgba(255,255,255,0.8)]'>Portfolio</h1>
         </div>
 
         <Projects />
