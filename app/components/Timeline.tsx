@@ -17,15 +17,14 @@ const Timeline = () => {
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
-              dateClassName=''
-              iconStyle={{ backgroundColor: '', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+              iconStyle={{ backgroundColor: element.bgColor, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
               icon={
-                <div className={`w-full h-full flex items-center justify-center ${element.bgColor} rounded-full`}>
+                
                   <img src={element.icon} className="w-15 h-15 rounded-full" />
-                </div>
+                
               }
-              contentStyle={{ background: element.bgColor, color: '#fff' }}
-              contentArrowStyle={{ borderRight: `7px solid ${element.bgColor}` }}
+              contentStyle={{ background: "white", color: '#fff' }}
+              contentArrowStyle={{ borderRight: `7px solid white` }}
             >
               <h3 className="text-xl text-BlackCustom font-semibold">{element.title}</h3>
               <h5 className="text-sm  text-BlackCustom font-medium mb-2">{element.subtitle}</h5>
