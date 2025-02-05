@@ -1,9 +1,13 @@
-'use client';
 
 import React from 'react';
 import Header from "./components/Header";
 import BackgroundParticles from './components/BackgroundParticles';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import Footer from './components/footer';
+import Aboutme from './components/Aboutme';
+import LandingSlide from './components/LandingSlide';
+import Projects from './components/Projects';
+import Timeline from './components/Timeline';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -14,45 +18,23 @@ export default function Home() {
         <Header />
       </div>
 
-      <div className="flex flex-col items-center justify-center h-screen text-white relative z-10">
-        <img src="/Picture.jpg" alt="Yassine Bibi" className="w-50 h-72 rounded-2xl mb-4" />
-        <h1 className="text-7xl text-center ">Yassine Bibi</h1>
-        <h2 className="text-4xl mt-2">Software Developer</h2>
-
-        <div className="flex gap-6 mt-4">
-          <a href="https://www.linkedin.com/in/yassine-bibi-b8936b252/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 text-3xl">
-            <FaLinkedin />
-          </a>
-          <a href="https://github.com/YassineBibi02" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 text-3xl">
-            <FaGithub />
-          </a>
-        </div>
-
-      </div>
+      <LandingSlide />
 
       <div className="pt-24  relative z-10">
 
-        <div className="bg-white w-full h-80 shadow-md rounded-none mb-4 py-5">
+        <Aboutme />
 
-          <div className="w-full max-w-6xl px-[clamp(8px,10%,24px)] py-5 mx-auto bg-white rounded-none mb-4">
-            <h1 className="text-[rgba(0,0,0,0.8)] font-bold text-3xl mt-3">About me:</h1>
-            <p className="text-[rgba(0,0,0,0.8)]  font-light text-3xl   mt-5">
-            Motivated computer engineering graduate <br></br>
-            looking for new challenges to further expand my knowledge and skills. In addition to my sound technical expertise, logical and constructive thinking are among my most important strengths.
-            </p>
-          </div>
-          
-          
+        <div className='py-20'>
+          <h1 className='text-center text-5xl text-[rgba(255,255,255,0.8)] '>Portfolio</h1>
         </div>
 
-        <div className="bg-white w-full h-80 shadow-md rounded-lg p-4 mb-4 my-80">
-          <h2 className="text-lg font-semibold">Block 2</h2>
-          <p className="text-gray-600">
-            This is another placeholder for future content.
-          </p>
-        </div>
-
+        <Projects />
+        <Timeline />
+        <Contact />
       </div>
+      
+      <Footer />
+
     </main>
   );
 }

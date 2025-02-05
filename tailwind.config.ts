@@ -12,6 +12,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        BlackCustom: 'rgba(0, 0, 0, 0.8)',
+        WhiteCustom: 'rgba(255,255,255,0.8)',
       },
       fontFamily: {
         custom: ['Roboto'],
