@@ -33,6 +33,9 @@ export default function Home() {
         <Projects />
         <Timeline />
         {/* <Languages /> */}
+       
+       <div className="h-0.5 bg-BlackCustom"></div>
+
         <Contact />
       </div>
       
