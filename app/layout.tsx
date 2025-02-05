@@ -12,8 +12,20 @@ export const metadata: Metadata = {
   title: "Yassine Bibi",
   description: "Portfolio of Yassine Bibi - Software Developer",
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
+    
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/images/YBlogoBlack.png',
+        href: '/images/YBlogoBlack.png',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/images/YBlogoWhite.png',
+        href: '/images/YBlogoWhite.png',
+      },
+    ],
+    shortcut: '/images/YBlogoWhite.png',
    
   },
 };

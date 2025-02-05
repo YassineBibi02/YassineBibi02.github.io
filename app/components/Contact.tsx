@@ -3,7 +3,8 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const ContactInfo = () => {
   return (
-    <div className="w-full max-w-7xl px-[clamp(8px,10%,24px)] py-5 mx-auto bg-transparent rounded-none mb-4">
+    <div className='pt-7'>
+    <div className=" w-full max-w-7xl px-[clamp(8px,10%,24px)] pu-5 mx-auto bg-transparent rounded-none pb-9">
       <h2 className="text-2xl font-bold text-WhiteCustom mb-6">Contact Me:</h2>
       
       <div className="flex flex-col space-y-4 text-WhiteCustom">
@@ -47,6 +48,7 @@ const ContactInfo = () => {
           <span>+49 176 70548067</span>
         </a>
       </div>
+    </div>
     </div>
   );
 };

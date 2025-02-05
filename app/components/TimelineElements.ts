@@ -13,7 +13,7 @@ interface TimelineElement {
   const timelineElements: TimelineElement[] = [
     {
       key: 1,
-      icon: "Leibniz.png",
+      icon: "images/Leibniz.png",
       bgColor: "white",
       title: "Finished my B.Sc Degree",
       subtitle: "B.Sc Technische Informatik (Note 2.8)",
@@ -22,7 +22,7 @@ interface TimelineElement {
     },
     {
       key: 2,
-      icon: "TIB.png",
+      icon: "images/TIB.png",
       bgColor: "white",
       title: "Completion of my Bachelor thesis",
       subtitle: "Question answering using chart figures in scientific articles (Note 2.0)",
@@ -31,16 +31,16 @@ interface TimelineElement {
     },
     {
       key: 3,
-      icon: "wts.jpg",
+      icon: "images/wts.jpg",
       bgColor: "white",
-      title: "Software Engineer",
+      title: "Working Student - Power platforms",
       subtitle: "Wts digital GmbH",
       description: "At Wts. my main responsability is to help build power platform tools for clients and internal projects",
       date: "November 2024",
     },
     {
       key: 4,
-      icon: "ContinentalTrans.png",
+      icon: "images/ContinentalTrans.png",
       bgColor: "orange",
       title: "Working Student – Digitalization & Smart Factory",
       subtitle: "Continental AG",
@@ -49,7 +49,7 @@ interface TimelineElement {
     },
     {
       key: 5,
-      icon: "/Leibniz.png",
+      icon: "images/Leibniz.png",
       bgColor: "blue",
       title: "Started Studying Computer Engineering",
       subtitle: "B.Sc Technische Informatik ",

@@ -6,13 +6,15 @@ interface ProjectCardProps {
   link: string;
   icon: string;
   bgColor: string;
+  txtColor:string;
+
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, icon, bgColor }) => {
-console.log('link:',link);
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, icon, bgColor, txtColor }) => {
+
 
   return (
-    <div className={`p-6 rounded-md shadow-md text-white ${bgColor} w-full sm:w-[300px]`}>
+    <div className={`p-6 rounded-md shadow-md ${txtColor} ${bgColor} w-full sm:w-[300px]`}>
       <div className="flex justify-center mb-4">
         <img src={icon} alt={title} className="w-12 h-12" />
       </div>

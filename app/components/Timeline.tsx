@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
   return (
-  <div className=''>
+  <div className='backdrop-blur'>
     <div className="py-10 px-[clamp(8px,10%,24px)] max-w-7xl mx-auto">
       <h1 className="text-4xl font-bold text-WhiteCustom text-center mb-10">Timeline</h1>
       <VerticalTimeline>
