@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
         <Projects />
-        <Timeline />
+        {/* <Timeline /> */}
         <Contact />
       </div>
       
