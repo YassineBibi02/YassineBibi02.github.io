@@ -35,7 +35,7 @@ export default function Home() {
         <div className="bg-white w-full h-80 shadow-md rounded-none  mb-4 ">
           <h2 className="text-lg font-semibold">Hey!</h2>
           <p className="text-gray-600">
-            This is a placeholder for future content.
+            This is a placeholder for future content .
           </p>
         </div>
 
