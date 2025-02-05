@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center justify-center h-screen text-white relative z-10">
         <img src="/Picture.jpg" alt="Yassine Bibi" className="w-50 h-72 rounded-2xl mb-4" />
-        <h1 className="text-7xl text-center font-bold">Yassine Bibi</h1>
+        <h1 className="text-7xl text-center ">Yassine Bibi</h1>
         <h2 className="text-4xl mt-2">Software Developer</h2>
 
         <div className="flex gap-6 mt-4">
@@ -32,11 +32,14 @@ export default function Home() {
 
       <div className="pt-24  relative z-10">
 
-        <div className="bg-white w-full h-80 shadow-md rounded-none  mb-4 ">
-          <h2 className="text-lg font-semibold">Hey!</h2>
-          <p className="text-gray-600">
-            This is a placeholder for future content .
+        <div className="bg-white w-full h-80 shadow-md rounded-none mb-4 px-60 py-5">
+          
+          <strong className="text-black text-2xl  mt-3">About me:</strong>
+          <p className="text-black  text-lg mt-5">
+          Motivated computer engineering graduate <br></br>
+          looking for new challenges to further expand my knowledge and skills. In addition to my sound technical expertise, logical and constructive thinking are among my most important strengths.
           </p>
+          
         </div>
 
         <div className="bg-white w-full h-80 shadow-md rounded-lg p-4 mb-4 my-80">
