@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const ContactInfo = () => {
   return (
-    <div className='pt-7'>
+    <div className=' backdrop-blur pt-7'>
     <div className=" w-full max-w-7xl px-[clamp(8px,10%,24px)] pu-5 mx-auto bg-transparent rounded-none pb-9">
       <h2 className="text-2xl font-bold text-WhiteCustom mb-6">Contact Me:</h2>
       

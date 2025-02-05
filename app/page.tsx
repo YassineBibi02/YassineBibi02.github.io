@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from "./components/Header";
 import BackgroundParticles from './components/BackgroundParticles';
@@ -8,7 +7,6 @@ import LandingSlide from './components/LandingSlide';
 import Projects from './components/Projects';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
-import Languages from './components/Languages';
 
 
 
@@ -34,7 +32,7 @@ export default function Home() {
 
         <Projects />
         <Timeline />
-        <Languages />
+        {/* <Languages /> */}
         <Contact />
       </div>
       

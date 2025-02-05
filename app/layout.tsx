@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import {  Roboto } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({
-  weight: ['100','300','400', '500', '700'],
+  weight: ['100', '300', '400', '500', '700'],
   subsets: ['latin'],
 });
 
@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "Yassine Bibi",
   description: "Portfolio of Yassine Bibi - Software Developer",
   icons: {
-    
     icon: [
       {
         media: '(prefers-color-scheme: light)',
@@ -26,7 +25,6 @@ export const metadata: Metadata = {
       },
     ],
     shortcut: '/images/YBlogoWhite.png',
-   
   },
 };
 
@@ -37,10 +35,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="business">
-      <body
-        className={`${roboto.className} antialiased`}
-      >
+      <body className={`${roboto.className} antialiased`}>
         {children}
+        <Analytics /> {/* Vercel Analytics added here */}
       </body>
     </html>
   );
