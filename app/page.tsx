@@ -32,13 +32,16 @@ export default function Home() {
 
       <div className="pt-24  relative z-10">
 
-        <div className="bg-white w-full h-80 shadow-md rounded-none mb-4 px-60 py-5">
+        <div className="bg-white w-full h-80 shadow-md rounded-none mb-4 py-5">
+
+          <div className="w-full max-w-6xl px-[clamp(8px,10%,24px)] py-5 mx-auto bg-white rounded-none mb-4">
+            <h1 className="text-[rgba(0,0,0,0.8)] font-bold text-3xl mt-3">About me:</h1>
+            <p className="text-[rgba(0,0,0,0.8)]  font-light text-3xl   mt-5">
+            Motivated computer engineering graduate <br></br>
+            looking for new challenges to further expand my knowledge and skills. In addition to my sound technical expertise, logical and constructive thinking are among my most important strengths.
+            </p>
+          </div>
           
-          <strong className="text-black text-2xl  mt-3">About me:</strong>
-          <p className="text-black  text-lg mt-5">
-          Motivated computer engineering graduate <br></br>
-          looking for new challenges to further expand my knowledge and skills. In addition to my sound technical expertise, logical and constructive thinking are among my most important strengths.
-          </p>
           
         </div>
 

@@ -4,7 +4,7 @@ import "./globals.css";
 
 
 const roboto = Roboto({
-  weight: ['400', '500', '700'],
+  weight: ['100','300','400', '500', '700'],
   subsets: ['latin'],
 });
 
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   title: "Yassine Bibi",
   description: "Portfolio of Yassine Bibi - Software Developer",
   icons: {
-    icon: '/YBIconWhite.png',
-    shortcut: '/YBIconWhite.png',
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
    
   },
 };
