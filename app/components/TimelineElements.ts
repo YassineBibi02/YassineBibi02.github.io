@@ -22,7 +22,7 @@ interface TimelineElement {
     },
     {
       key: 2,
-      icon: "Leibniz.png",
+      icon: "TIB.png",
       bgColor: "white",
       title: "Completion of my Bachelor thesis",
       subtitle: "Question answering using chart figures in scientific articles (Note 2.0)",
