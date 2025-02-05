@@ -1,13 +1,13 @@
 import { NextConfig } from 'next';
 
-const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: isProd ? '/YassineBibi02.github.io' : '',
+const nextConfig = {
+  output: 'standalone', // Default behavior, no need for 'export' with Vercel
   images: {
-    unoptimized: true,
+    unoptimized: false, // Enable Next.js image optimization
   },
 };
+
+
 
 export default nextConfig;
