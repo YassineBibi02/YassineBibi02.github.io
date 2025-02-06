@@ -11,6 +11,14 @@ interface TimelineElement {
 
   const timelineElements: TimelineElement[] = [
     {
+      icon: "images/De.png",
+      bgColor: "black",
+      title: "Arrived in Germany",
+      subtitle: "",
+      description: "",
+      date: "December 2020",
+    },
+    {
       icon: "images/Leibniz.png",
       bgColor: "blue",
       title: "Started Studying Computer Engineering",

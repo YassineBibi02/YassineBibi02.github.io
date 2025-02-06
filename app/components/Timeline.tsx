@@ -4,6 +4,7 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import timelineElements from './TimelineElements';
 import 'react-vertical-timeline-component/style.min.css';
+import Contact from './Contact';
 
 const Timeline = () => {
   return (
@@ -11,7 +12,7 @@ const Timeline = () => {
       <div className="py-10 px-[clamp(8px,10%,24px)] max-w-7xl mx-auto">
         <h1 className="text-4xl font-bold text-WhiteCustom text-center mb-10">Timeline</h1>
         <VerticalTimeline>
-          {[...timelineElements].reverse().map((element, index) => (  // Reversing the array
+          {[...timelineElements].reverse().map((element, index) => (  
             <VerticalTimelineElement
               key={index}  
               date={element.date}
@@ -29,7 +30,9 @@ const Timeline = () => {
           ))}
         </VerticalTimeline>
       </div>
+      <Contact /> {/* added the Contact component to avoid the blur split problem */}
     </div>
+    
   );
 };
 

@@ -6,7 +6,6 @@ import Aboutme from './components/Aboutme';
 import LandingSlide from './components/LandingSlide';
 import Projects from './components/Projects';
 import Timeline from './components/Timeline';
-import Contact from './components/Contact';
 
 
 
@@ -34,9 +33,8 @@ export default function Home() {
         <Timeline />
         {/* <Languages /> */}
        
-       <div className="h-0.5 bg-BlackCustom"></div>
-
-        <Contact />
+       
+        
       </div>
       
       <Footer />

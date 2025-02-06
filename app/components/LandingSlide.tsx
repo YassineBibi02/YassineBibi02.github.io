@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const LandingSlide = () => {
   return (
@@ -14,6 +14,9 @@ const LandingSlide = () => {
       </a>
       <a href="https://github.com/YassineBibi02" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 text-3xl">
         <FaGithub />
+      </a>
+      <a href="mailto:yassinebibi2002@gmail.com"  className="flex items-center space-x-3 hover:text-red-500 text-3xl" >
+        <FaEnvelope />
       </a>
     </div>
 
