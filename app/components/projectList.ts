@@ -14,7 +14,7 @@ interface Project {
       title: "Battleships",
       description:
         "During my second semester I developed a battleship game using Java. It was a group project with three members. One handled the UI, one developed the game logic, and I was responsible for the networking side as the game had to be online. I also managed the integration between game logic and server logic.",
-      link: "",
+      link: "https://github.com/YassineBibi02/BattleshipsSS22",
       icon: "images//battleships.png",
       bgColor: "bg-blue-600",
       txtColor: "text-WhiteCustom"
@@ -23,7 +23,7 @@ interface Project {
       title: "Anti-Phishing App",
       description:
         "This app was developed during the 'Software Projekt' module at university. It aims to help workers learn how to handle phishing emails by testing them with fake phishing emails and providing guidance on avoiding such emails in the long run. I was in charge of developing the backend and helped connect it to the frontend.",
-      link: "",
+      link: "https://github.com/YassineBibi02/SoftwareProjekt",
       icon: "images//fishing.png",
       bgColor: "bg-blue-800",
       txtColor: "text-WhiteCustom"
