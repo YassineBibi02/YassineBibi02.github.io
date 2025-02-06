@@ -1,38 +1,52 @@
-'use client'
+"use client";
 
-import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import timelineElements from './TimelineElements';
-import 'react-vertical-timeline-component/style.min.css';
-import Contact from './Contact';
+import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import timelineElements from "./TimelineElements";
+import "react-vertical-timeline-component/style.min.css";
+import Contact from "./Contact";
 
 const Timeline = () => {
   return (
-    <div className='backdrop-blur'>
+    <div className="backdrop-blur">
       <div className="py-10 px-[clamp(8px,10%,24px)] max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-WhiteCustom text-center mb-10">Timeline</h1>
+        <h1 className="text-4xl font-bold text-WhiteCustom text-center mb-10">
+          Timeline
+        </h1>
         <VerticalTimeline>
-          {[...timelineElements].reverse().map((element, index) => (  
+          {[...timelineElements].reverse().map((element, index) => (
             <VerticalTimelineElement
-              key={index}  
+              key={index}
               date={element.date}
-              iconStyle={{ backgroundColor: element.bgColor, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+              iconStyle={{
+                backgroundColor: element.bgColor,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
               icon={
                 <img src={element.icon} className="w-15 h-15 rounded-full" />
               }
-              contentStyle={{ background: "white", color: '#fff' }}
+              contentStyle={{ background: "white", color: "#fff" }}
               contentArrowStyle={{ borderRight: `7px solid white` }}
             >
-              <h3 className="text-xl text-BlackCustom font-semibold">{element.title}</h3>
-              <h5 className="text-sm text-BlackCustom font-medium mb-2">{element.subtitle}</h5>
+              <h3 className="text-xl text-BlackCustom font-semibold">
+                {element.title}
+              </h3>
+              <h5 className="text-sm text-BlackCustom font-medium mb-2">
+                {element.subtitle}
+              </h5>
               <p className="text-sm text-BlackCustom">{element.description}</p>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
       </div>
-      <Contact /> {/* added the Contact component to avoid the blur split problem */}
+      <Contact />{" "}
+      {/* added the Contact component to avoid the blur split problem */}
     </div>
-    
   );
 };
 

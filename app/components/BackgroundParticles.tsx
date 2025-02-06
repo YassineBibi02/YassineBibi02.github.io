@@ -1,12 +1,13 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Particles from 'react-tsparticles';
-import { loadSlim } from 'tsparticles-slim';
-import { Engine } from 'tsparticles-engine';  // Import the correct type
+import React from "react";
+import Particles from "react-tsparticles";
+import { loadSlim } from "tsparticles-slim";
+import { Engine } from "tsparticles-engine"; // Import the correct type
 
 const BackgroundParticles = () => {
-  const particlesInit = async (main: Engine) => {  // Add type for 'main'
+  const particlesInit = async (main: Engine) => {
+    // Add type for 'main'
     await loadSlim(main);
   };
 
@@ -33,9 +34,9 @@ const BackgroundParticles = () => {
             value: 3,
           },
           move: {
-            direction: 'none',
+            direction: "none",
             enable: true,
-            outMode: 'bounce',
+            outMode: "bounce",
             random: false,
             speed: 2,
             straight: false,

@@ -4,8 +4,8 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({
-  weight: ['100', '300', '400', '500', '700'],
-  subsets: ['latin'],
+  weight: ["100", "300", "400", "500", "700"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -14,17 +14,17 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        media: '(prefers-color-scheme: light)',
-        url: '/images/YBlogoBlack.png',
-        href: '/images/YBlogoBlack.png',
+        media: "(prefers-color-scheme: light)",
+        url: "/images/YBlogoBlack.png",
+        href: "/images/YBlogoBlack.png",
       },
       {
-        media: '(prefers-color-scheme: dark)',
-        url: '/images/YBlogoWhite.png',
-        href: '/images/YBlogoWhite.png',
+        media: "(prefers-color-scheme: dark)",
+        url: "/images/YBlogoWhite.png",
+        href: "/images/YBlogoWhite.png",
       },
     ],
-    shortcut: '/images/YBlogoWhite.png',
+    shortcut: "/images/YBlogoWhite.png",
   },
 };
 
