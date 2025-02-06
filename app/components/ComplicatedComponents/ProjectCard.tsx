@@ -16,14 +16,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, link, ico
         <img src={icon} alt={title} className="w-12 h-12" />
       </div>
       <h2 className="text-xl  font-bold">{title}</h2>
-      <p className="text-sm mt-2 mb-4">{description}</p>
+      <p className="text-sm mt-2 mb-5">{description}</p>
       
       {link && (
         <a 
           href={link} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="absolute bottom-4 left-6 text-sm font-semibold underline "
+          className="absolute bottom-5 left-6 text-sm font-semibold underline "
         >
           VISIT WEBSITE
         </a>
