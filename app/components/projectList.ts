@@ -13,7 +13,7 @@ interface Project {
     {
       title: "Battleships",
       description:
-        "During my second semester I developed a battleship game using Java. It was a group project with three members. One handled the UI, one developed the game logic, and I was responsible for the networking side as the game had to be online. I also managed the integration between game logic and server logic.",
+      "Developed an online Battleship game in Java as part of a group project during my second semester. While one team member handled the UI and another focused on game logic, I was responsible for the networking functionality, ensuring seamless online gameplay. Additionally, I managed the integration between the game logic and server-side operations.",
       link: "https://github.com/YassineBibi02/BattleshipsSS22",
       icon: "images/battleships.png",
       bgColor: "bg-blue-600",
@@ -22,7 +22,7 @@ interface Project {
     {
       title: "Anti-Phishing App",
       description:
-        "This app was developed during the 'Software Projekt' module at university. It aims to help workers learn how to handle phishing emails by testing them with fake phishing emails and providing guidance on avoiding such emails in the long run. I was in charge of developing the backend and helped connect it to the frontend.",
+      "Built as part of the 'Software Projekt' module at university, this application helps employees recognize and handle phishing attempts. It simulates phishing attacks through test emails and provides educational feedback to improve security awareness. I was responsible for developing the backend and facilitating integration with the frontend.",
       link: "https://github.com/YassineBibi02/SoftwareProjekt",
       icon: "images/fishing.png",
       bgColor: "bg-blue-800",
@@ -32,7 +32,7 @@ interface Project {
     {
         title: "Jira Alternative with Powerautomate",
         description:
-         "The highlight of my time with continental was a Microsfot powerapps app that served to replace Jira. Where the entire managment relied on it by the time i left the company. I was nominated for Continental excellence award thanks to that project. I developped everything in it.",
+        "Designed and implemented a Microsoft PowerApps-based project management tool as a replacement for Jira during my tenure at Continental. The solution became an essential part of the management workflow by the time I left. My contributions earned me a nomination for the Continental Excellence Award, as I was solely responsible for its development.",
         link: "",
         icon: "images/PowerAppIcon.png",
         bgColor: "bg-fuchsia-300",
@@ -42,7 +42,7 @@ interface Project {
     {
         title: "Knime Report automation",
         description:
-        "Automation of Multiple reports with SQL and Java. This project comes under the smart factory intiative in Continental. At the end of my time , my reports saved around 35 hours weekly of manual excel work",
+        "Developed an automated reporting system using SQL and Java as part of Continental’s Smart Factory initiative. The solution streamlined multiple reporting tasks, reducing manual Excel work by approximately 35 hours per week. I was responsible for the entire development process, from requirements gathering to implementation.",
         link: "",
         icon: "images/Knime.png",
         bgColor: "bg-amber-600",
