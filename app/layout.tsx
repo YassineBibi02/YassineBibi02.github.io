@@ -9,7 +9,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Yassine Bibi",
+  title: "Yassine Bibi - Resume",
   description: "Portfolio of Yassine Bibi - Software Developer",
   icons: {
     icon: [

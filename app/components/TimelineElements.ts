@@ -1,6 +1,5 @@
 // /data/timelineElements.ts
 interface TimelineElement {
-    key: number;
     icon: string;
     bgColor: string;
     title: string;
@@ -12,34 +11,14 @@ interface TimelineElement {
 
   const timelineElements: TimelineElement[] = [
     {
-      key: 1,
       icon: "images/Leibniz.png",
-      bgColor: "white",
-      title: "Finished my B.Sc Degree",
-      subtitle: "B.Sc Technische Informatik (Note 2.8)",
-      description: "Finished my bachelor degree with a note of 2.8 within the expected 6 semesters.",
-      date: "January 2025",
+      bgColor: "blue",
+      title: "Started Studying Computer Engineering",
+      subtitle: "B.Sc Technische Informatik ",
+      description: "Started Studying Computer Engineering at Leibniz Universität Hannover",
+      date: "September 2021",
     },
     {
-      key: 2,
-      icon: "images/TIB.png",
-      bgColor: "white",
-      title: "Completion of my Bachelor thesis",
-      subtitle: "Question answering using chart figures in scientific articles (Note 2.0)",
-      description: "Finished my bachelor degree with a note of 2.8 within the expected 6 semesters.",
-      date: "Dezember 2024",
-    },
-    {
-      key: 3,
-      icon: "images/wtslogored.jpeg",
-      bgColor: "white",
-      title: "Working Student - Power platforms",
-      subtitle: "Wts digital GmbH",
-      description: "At Wts. my main responsability is to help build power platform tools for clients and internal projects",
-      date: "November 2024",
-    },
-    {
-      key: 4,
       icon: "images/ContinentalTrans.png",
       bgColor: "orange",
       title: "Working Student – Digitalization & Smart Factory",
@@ -48,13 +27,28 @@ interface TimelineElement {
       date: "November 2022",
     },
     {
-      key: 5,
+      icon: "images/wtslogored.jpeg",
+      bgColor: "white",
+      title: "Working Student - Power platforms",
+      subtitle: "Wts digital GmbH",
+      description: "At Wts. my main responsability is to help build power platform tools for clients and internal projects",
+      date: "November 2024",
+    },
+    {
+      icon: "images/TIB.png",
+      bgColor: "white",
+      title: "Completion of my Bachelor thesis",
+      subtitle: "Question answering using chart figures in scientific articles (Note 2.0)",
+      description: "Finished my bachelor degree with a note of 2.8 within the expected 6 semesters.",
+      date: "Dezember 2024",
+    },
+    {
       icon: "images/Leibniz.png",
-      bgColor: "blue",
-      title: "Started Studying Computer Engineering",
-      subtitle: "B.Sc Technische Informatik ",
-      description: "Started Studying Computer Engineering at Leibniz Universität Hannover",
-      date: "September 2021",
+      bgColor: "white",
+      title: "Finished my B.Sc Degree",
+      subtitle: "B.Sc Technische Informatik (Note 2.8)",
+      description: "Finished my bachelor degree with a note of 2.8 within the expected 6 semesters.",
+      date: "January 2025",
     },
   ];
   
