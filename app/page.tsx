@@ -12,10 +12,6 @@ export default function Home() {
     <main className="min-h-screen relative overflow-x-hidden">
       <BackgroundParticles />
 
-      <div className="fixed top-0 left-0 w-full z-20">
-        <Header />
-      </div>
-
       <LandingSlide />
 
       <div className="pt-24  relative z-10">
@@ -31,8 +27,6 @@ export default function Home() {
         <Timeline />
         {/* <Languages /> */}
       </div>
-
-      <Footer />
     </main>
   );
 }
