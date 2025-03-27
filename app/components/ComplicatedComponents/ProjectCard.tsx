@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface ProjectCardProps {
   title: string;
@@ -22,7 +23,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       className={`p-6 rounded-md shadow-md ${txtColor} ${bgColor} w-full sm:w-[300px] relative`}
     >
       <div className="flex justify-center mb-4">
-        <img src={icon} alt={title} className="w-12 h-12" />
+        {/* <img src={icon} alt={title} className="w-12 h-12" /> */}
+        <Image src={icon} alt={title} width={48} height={48} unoptimized />
       </div>
       <h2 className="text-xl  font-bold">{title}</h2>
       <p className="text-sm mt-2 mb-5">{description}</p>

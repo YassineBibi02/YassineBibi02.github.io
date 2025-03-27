@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "./components/Header";
 import BackgroundParticles from "./components/BackgroundParticles";
-import Footer from "./components/footer";
 import Aboutme from "./components/Aboutme";
 import LandingSlide from "./components/LandingSlide";
 import Projects from "./components/Projects";

@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(true);
@@ -32,10 +33,12 @@ const Header = () => {
     >
       {/* Left Section: Logo and Website Name */}
       <div className="flex items-center gap-4">
-        <img
+        <Image
           src="/images/YBlogoWhite.png"
           alt="Logo"
-          className="w-8 h-8 ml-2"
+          width={32}
+          height={32}
+          className=" ml-2"
         />
         <Link href="/" className="ml-4 text-xl font-bold text-[#e5e5e5]">
           Yassine Bibi
