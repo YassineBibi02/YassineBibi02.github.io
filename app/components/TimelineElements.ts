@@ -62,7 +62,7 @@ const timelineElements: TimelineElement[] = [
       "'Question Answering Using Chart Figures in Scientific Articles' (Grade: 2.0)",
     description:
       "Completed a Bachelor thesis focused on developing methods for extracting and interpreting information from chart figures in scientific articles, achieving a grade of 2.0.",
-    date: "Dezember 2024",
+    date: "December 2024",
   },
   {
     icon: "images/Leibniz.png",
@@ -72,6 +72,15 @@ const timelineElements: TimelineElement[] = [
     description:
       "Graduated with a Bachelor of Science degree in Computer Engineering from Leibniz Universität Hannover, completing the program within the standard duration of six semesters with a final grade of 2.8.",
     date: "January 2025",
+  },
+  {
+    icon: "images/Leibniz.png",
+    bgColor: "blue",
+    title: "Started Studying Computer Science",
+    subtitle: "M.Sc Informatik ",
+    description:
+      "Enrolled in the Master of Science program in Computer Science at Leibniz Universität Hannover.",
+    date: "April 2025",
   },
   {
     icon: "images/CSE.png",
