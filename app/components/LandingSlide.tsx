@@ -5,7 +5,7 @@ import Image from "next/image";
 const LandingSlide = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen text-white relative z-10">
-      <Image src="/images/Picture.jpg" width={300} height={200} alt="Yassine Bibi"  className="rounded-2xl mb-10"/>
+      <Image src="/images/Picture.jpg" width={250} height={150} alt="Yassine Bibi"  className="rounded-2xl mb-10"/>
       <h1 className="text-7xl text-center ">Yassine Bibi</h1>
       <h2 className="text-4xl mt-2">Computer Engineer</h2>
 
