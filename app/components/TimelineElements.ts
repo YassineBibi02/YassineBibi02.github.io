@@ -73,6 +73,15 @@ const timelineElements: TimelineElement[] = [
       "Graduated with a Bachelor of Science degree in Computer Engineering from Leibniz Universität Hannover, completing the program within the standard duration of six semesters with a final grade of 2.8.",
     date: "January 2025",
   },
+  {
+    icon: "images/CSE.png",
+    bgColor: "white",
+    title: "Software Developer",
+    subtitle: "CSE Healthcare GmbH",
+    description:
+      "Working on Maintainening and creating Applications and websites for the Healthcare industry.",
+    date: "April 2025",
+  },
 ];
 
 export default timelineElements;

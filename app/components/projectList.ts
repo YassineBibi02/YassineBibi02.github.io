@@ -29,7 +29,7 @@ const projects: Project[] = [
     txtColor: "text-WhiteCustom",
   },
   {
-    title: "Jira Alternative with Powerautomate",
+    title: "Jira Alternative with PowerApps",
     description:
       "Designed and implemented a Microsoft PowerApps-based project management tool as a replacement for Jira during my tenure at Continental. The solution became an essential part of the management workflow by the time I left. My contributions earned me a nomination for the Continental Excellence Award, as I was solely responsible for its development.",
     link: "",
