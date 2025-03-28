@@ -8,7 +8,7 @@ const LandingSlide = () => {
       <Image 
       src="/images/Picture.jpg" 
       alt="Yassine Bibi"  
-      className="rounded-2xl mt-12 sm:mt-0 mb-5 sm:mb-10"
+      className="rounded-2xl mb-5 sm:mb-10"
       width={0} 
       height={0} 
       sizes="(max-width: 640px) 300px, (max-width: 1024px) 250px, 300px"
