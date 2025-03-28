@@ -51,7 +51,7 @@ const Header = () => {
           Home
         </Link>
         <a
-          href="/Lebenslauf 2025 - EN.pdf"
+          href="/Lebenslauf 2025 - DE.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline font-semibold mr-4"
