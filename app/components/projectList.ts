@@ -46,6 +46,43 @@ const projects: Project[] = [
     bgColor: "bg-amber-600",
     txtColor: "text-BlackCustom",
   },
+  {
+    title: "Golstic SEO Optimization & Development",
+    description:
+      "Solved various issues in the website Golistic.de that prevented it from being indexed by Google within 1 month. Previous attemps took 11 months without success. I identified and fixed problems related to site structure, redirects and faulty logic in the backend. This resulted in a significant increase in organic traffic and improved search engine rankings. I also contributed to the development of new features Such as Coupons integration.",
+    link: "https://www.golistic.de/",
+    icon: "images/golistic_favicon2025.png",
+    bgColor: "bg-[#AFCA0B]",
+    txtColor: "text-BlackCustom",
+  },
+  {
+    title: "Go-Makkah Website Redesign",
+    description:
+      "Participated in Module-based developement of a website redesign for Go-Makkah, a travel agency specializing in Hajj and Umrah packages. The project involved creating a modern, user-friendly interface to enhance the customer experience. as well as updating a 17 year old backend technology stack to a more modern one. I contributed to both frontend and backend development, ensuring seamless integration and improved performance.",
+    link: "https://go-makkah.com/",
+    icon: "images/goMakkahlogo.png",
+    bgColor: "bg-[#AB0F24]",
+    txtColor: "text-white",
+  },
+  {
+    title: "Restuarent Website - Module ",
+    description:
+      "I Created a modular website for online buisnesses. it started with a restaurant rework. and is now a configurable template for any buisness. It includes secure authentication, payment integration, and an admin dashboard for easy management. Plus all buisness logic per Customer needs. ",
+    link: "",
+    icon: "images/Restaurent.png",
+    bgColor: "bg-[#FF8000]",
+    txtColor: "text-white",
+  },
+  {
+    title: "Restuarent Website - Module ",
+    description:
+      "In my tenure as a fullstack developer at cse. I took charge over administrating all typo3 logic and development. I was responsible for maintaining and updating the website, implementing new features, and ensuring optimal performance. My role also involved collaborating with other developers and stakeholders to meet the company's digital needs.",
+    link: "https://www.revidacon.de/",
+    icon: "images/88698.png",
+    bgColor: "bg-gray-100",
+    txtColor: "text-BlackCustom",
+  },
+  
 ];
 
 export default projects;
