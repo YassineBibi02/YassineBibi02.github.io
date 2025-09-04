@@ -74,7 +74,7 @@ const projects: Project[] = [
     txtColor: "text-white",
   },
   {
-    title: "Restuarent Website - Module ",
+    title: "Typo3 Fullstack Development",
     description:
       "In my tenure as a fullstack developer at cse. I took charge over administrating all typo3 logic and development. I was responsible for maintaining and updating the website, implementing new features, and ensuring optimal performance. My role also involved collaborating with other developers and stakeholders to meet the company's digital needs.",
     link: "https://www.revidacon.de/",
