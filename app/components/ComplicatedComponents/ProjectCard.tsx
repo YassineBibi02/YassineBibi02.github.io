@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <div
       className={`p-6 rounded-md shadow-md ${txtColor} ${bgColor} w-full sm:w-[300px] relative`}
     >
-      <div className="flex justify-center mb-4">
+      <div className="flex justify-center h-[48px] mb-4">
         {/* <img src={icon} alt={title} className="w-12 h-12" /> */}
         <Image src={icon} alt={title} width={48} height={48} unoptimized />
       </div>
