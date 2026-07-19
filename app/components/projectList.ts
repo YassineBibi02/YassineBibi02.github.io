@@ -65,7 +65,7 @@ const projects: Project[] = [
     txtColor: "text-white",
   },
   {
-    title: "Restuarent Website - Module ",
+    title: "restaurant Website - Module ",
     description:
       "I Created a modular website for online buisnesses. it started with a restaurant rework. and is now a configurable template for any buisness. It includes secure authentication, payment integration, and an admin dashboard for easy management. Plus all buisness logic per Customer needs. ",
     link: "",
